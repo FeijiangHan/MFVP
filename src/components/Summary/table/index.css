@@ -1,0 +1,15 @@
+.summary-table {
+  width: 100%;
+  height: calc(100vh - 125px);
+  overflow: hidden;
+}
+.summary-table .ant-table.ant-table-small .ant-table-thead > tr > th {
+  padding: 4px 4px;
+}
+.summary-table .ant-table.ant-table-small {
+  font-size: 12px;
+  height: 100%;
+}
+.summary-table .ant-table-content table {
+  table-layout: fixed !important;
+}

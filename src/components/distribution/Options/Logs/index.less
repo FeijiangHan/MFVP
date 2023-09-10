@@ -1,0 +1,115 @@
+.options-log{
+    .ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+        padding:6px 2px;
+    }
+    .ant-table{
+        width: calc(100% / 0.8);
+        height: calc(375px / 0.8);
+        font-size: 13px;
+        -webkit-transform: scale(0.8);
+        -webkit-transform-origin: 0 0;
+        height: 100%;
+    }
+    .ant-table-content table{
+        table-layout: fixed !important;
+    }
+    .ant-table-filter-trigger{
+        right: 20px;
+        z-index: 2;
+    }
+    .ant-table-column-sorter{
+        right: 10px;
+        z-index:2;
+    }
+}
+.radio-item{
+    user-select: none;
+    display: inline-block;
+    position: relative;
+    input{
+        width: 10px;
+    }
+//     input[type="radio"]+label::before {
+//         content: " ";
+//         width: 10px;
+//         height: 10px;
+//         border-radius: 50%;
+//         border: 1px solid #999999;
+//         margin-right: 0.2rem;
+//         box-sizing: border-box;
+//         margin-top: -0.1rem;
+//    }
+   
+   > input[type="radio"]:checked + label:BEFORE {
+        content: 'U';
+        display: block;
+        line-height: 12px;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: 600;
+        background: rgb(171, 177, 223);
+        color: #ffffff
+   }
+   > label:BEFORE{
+        content: '';
+        position: absolute;
+        top:5px;
+        left:2px;
+        width: 14px;
+        height: 14px;
+        border-radius: 100%;
+        border: 1px solid #bbb;
+        background: #fff;
+        cursor: pointer;
+        display: block;
+   }
+   > input[type="radio"] {
+       display: block;
+        margin-right: 5px;
+        width: 12px;
+        height: 15px;
+        visibility: hidden;
+        // z-index: 10;
+        // position: absolute;
+        // left:-9999px;
+        // clip: rect(0, 0, 0, 0);
+   }
+}
+.radio-item-U{
+    input[type="radio"]:checked + label:BEFORE {
+        content: 'U';
+   }
+}
+.radio-item-S{
+    input[type="radio"]:checked + label:BEFORE {
+        content: 'S';
+   }
+}
+.radio-item-C{
+    input[type="radio"]:checked + label:BEFORE {
+        content: 'C';
+   }
+}
+.radio-group{
+    hr{
+        width: 18px;
+        border: 0;
+        height: 2px;
+        background: #bbb;
+        display: inline-block;
+        margin-bottom: 2px;
+    }
+}
+.item-text{
+    margin-top: -10px;
+    font-size: 13px;
+}
+.radio-link{
+    height: 2px;
+    width: 20px;
+    margin-bottom: 15px;
+    margin-left: -2px;
+    display: inline-block;
+    border:1px solid #aaa;
+    background-color: #aaa;
+}

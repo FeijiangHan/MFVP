@@ -1,0 +1,10 @@
+.pair-control .ant-tabs-tab {
+    margin-right: -30px !important;
+    margin-left: -10px !important;
+    /* border-right: 'unset'; */
+ }
+
+ /* 取消下划线 */
+ .pair-control .ant-tabs-ink-bar {
+    visibility: hidden;
+}

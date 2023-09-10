@@ -1,0 +1,76 @@
+{
+  "name": "malware-vis",
+  "version": "1.0.0",
+  "homepage": ".",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.8.0",
+    "@ant-design/pro-table": "^2.68.3",
+    "@arco-design/web-react": "^2.42.2",
+    "@craco/craco": "^6.4.3",
+    "@ray-js/components-ty-popup": "^1.0.4",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "ant-design-draggable-modal": "^1.0.0",
+    "antd": "^4.17.3",
+    "antd-draggable-modal": "^0.1.7",
+    "classnames": "^2.3.1",
+    "craco-less": "^2.0.0",
+    "d3": "^3.5.17",
+    "d3v3": "npm:d3@^3.5.17",
+    "d3v6": "npm:d3@^6.7.0",
+    "draggable-antd-modal": "0.0.3",
+    "dragm": "0.0.5",
+    "geometric": "^2.2.10",
+    "immutability-helper": "^3.1.1",
+    "js-export-excel": "^1.1.4",
+    "less": "^4.1.2",
+    "pubsub-js": "^1.9.4",
+    "rc-resize-observer": "^1.2.0",
+    "react": "^17.0.2",
+    "react-dnd": "^15.1.1",
+    "react-dnd-html5-backend": "^15.1.2",
+    "react-dom": "^17.0.2",
+    "react-draggable": "^4.4.4",
+    "react-joyride": "^2.5.3",
+    "react-redux": "^7.2.6",
+    "react-scripts": "5.0.0",
+    "react-sortable-hoc": "^2.0.0",
+    "react-window": "^1.8.6",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.1",
+    "virtuallist-antd": "^0.7.2",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "axios": "^0.25.0",
+    "default-passive-events": "^2.0.0",
+    "loadsh": "^0.0.4",
+    "redux-devtools-extension": "^2.13.9"
+  }
+}

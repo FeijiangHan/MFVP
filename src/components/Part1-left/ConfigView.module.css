@@ -1,0 +1,28 @@
+
+.run-model-button {
+  background-color: var(--color-secondary);
+  color:var(--color-text-2);
+  border: none;
+  border-radius: 6px;
+}
+.run-model-button:hover {
+  background-color: var(--color-neutral-3);
+}
+
+.reset-button {
+  border-radius: 6px;
+  margin-left: 1rem;
+}
+
+.more-button {
+  border-radius: 6px;
+  margin-left: 1rem;
+}
+
+.input-form input {
+  background-color: aqua;
+}
+
+.hidden-input {
+  /* display: none; */
+}

@@ -1,0 +1,21 @@
+.cluster-show-set .info {
+  margin: 2px 10px;
+  width: 100%;
+}
+.cluster-show-set .info div {
+  height: 32px;
+  line-height: 32px;
+  font-weight: 700;
+}
+.cluster-show-set .info div input {
+  width: 40px;
+  line-height: 20px;
+  font-weight: 700;
+  color: gray;
+  border: none;
+  border-radius: 2px;
+  border: 1px solid gray;
+}
+.cluster-show-set .legend {
+  margin-left: 80%;
+}

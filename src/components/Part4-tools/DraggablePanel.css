@@ -1,0 +1,12 @@
+.cluster-fctree {
+    height: 1000px;
+}
+.vis-pair-cluster-details {
+    border-radius: 12px;
+    border: 1.5px solid #999;
+    padding: 1rem;
+}
+
+.vis-pair-cluster-details div {
+    margin: 0.5rem;
+}

@@ -1,0 +1,23 @@
+.summary-info {
+  margin: 5px 5px 0;
+}
+.summary-info .summary-info-part {
+  width: 100%;
+  height: 32px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.summary-info .summary-info-part .summary-info-part-btn {
+  width: 124px;
+  height: 32px;
+  padding: 0 0;
+  text-align: center;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  background-color: #abb1df;
+  color: #fff;
+}
+.summary-info .summary-info-part .summary-info-part-span {
+  margin-left: 10px;
+}

@@ -1,0 +1,38 @@
+.layout .header,
+.layout .sider,
+.layout .sider-children,
+.layout .content {
+  /* text-align: center; */
+  /* font-stretch: condensed; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  box-shadow: none;
+}
+
+.layout .header {
+  border-bottom: 0.3rem solid lightgray;
+}
+
+.layout .sider {
+    padding-left: 0.5rem;
+    /* border-bottom: 0.3rem solid red; */
+}
+
+.layout .arco-layout-content {
+}
+
+.info-item{
+    /* width: 30%; */
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+    text-align: left;
+}
+
+.info-item .info-title{
+    color:#898ba3;
+}
+
+.info-item .info-sample{
+    width: 36%;
+}

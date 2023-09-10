@@ -1,0 +1,23 @@
+.summary-title {
+    margin-right: 32px;
+}
+
+.pair-list {
+    height: 367px;
+}
+
+.pair-list .ant-tabs .ant-tabs-nav{
+    height: 28px;   
+    background-color:rgb(245, 245, 245);
+    font-weight: 500;
+    margin-bottom: 0;
+    color:#777;
+}
+
+.pair-list  .ant-table-tbody > tr > td {
+    padding: 0.62rem;
+  }
+
+ /* .ant-table-header  {
+    padding: 0px;
+  } */

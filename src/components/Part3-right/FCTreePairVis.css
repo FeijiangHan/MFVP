@@ -1,0 +1,88 @@
+.vis-panel1,.vis-panel2 {
+    overflow: hidden;
+    height: 31rem;
+}
+
+.change-button {
+    margin-left: 0.3rem;
+    float: left;
+    transform: translate(0,34.5rem);
+}
+
+.vis-pair1,.vis-pair2 {
+    border: solid 1px #999;
+    border-radius: 6px;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.vis-panel3,.vis-panel4 {
+    overflow: hidden;
+    height: 85%;
+}
+
+.vis-pair3, .vis-pair4 {
+    border: solid 1px #999;
+    border-radius: 6px;
+    margin-top: 1rem;
+    height: 48%;
+}
+
+.details {
+    padding: 0.6rem;
+}
+
+.vis-operations {
+    position: relative;
+    width: max-content;
+    margin: 1.5rem auto;
+    /* border: 1px solid red; */
+}
+
+.my-button1 {
+    margin-left: 1.5rem;
+}
+
+.line1,.line2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 6rem;
+}
+
+.line1 span,.line2 span {
+}
+
+.submitAll {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin-right: 4rem;
+    margin-bottom: 2rem;
+    float: right;
+}
+
+.icon1 {
+    margin-right: 0.5rem;
+ }
+
+ .up-button, .down-button {
+    font-size: 3rem;
+    color: #999;
+ }
+
+ .up-button:hover, .down-button:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: rgb(213, 211, 211);
+ }
+
+ .pair-msg {
+    user-select: none;
+    padding: 0.6rem 0;
+    font-size: 1.5rem;
+ }
+
+ .expandButton, .step5 {
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    transform: translateY(2px);
+    color:#898ba3;
+ }
