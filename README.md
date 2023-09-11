@@ -1,4 +1,4 @@
-**Published a related patent as the third author (Patent No. CN115952230A)**
+**Published a related patent (Patent No. CN115952230A)**
 
 # Getting Started with Create React App
 
