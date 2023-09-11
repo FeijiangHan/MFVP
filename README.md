@@ -1,3 +1,5 @@
+**Published a related patent as the third author (Patent No. CN115952230A)**
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
