@@ -1,5 +1,9 @@
-**Published a related patent (Patent No. CN115952230A)**
-**You can watch this video for Website presentation:** https://www.bilibili.com/video/BV1Ld4y1L7Ui/?vd_source=e71838ed2f2728c3c6a06ef2d52820d0/
+
+
+:star:**We have published a related patent (Patent No. CN115952230A)**
+
+:point_right:**You can watch this video for Website presentation:**  
+https://www.bilibili.com/video/BV1Ld4y1L7Ui/?vd_source=e71838ed2f2728c3c6a06ef2d52820d0/
 
 # Getting Started with Create React App
 
