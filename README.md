@@ -1,8 +1,10 @@
 **This is the malware cluster and visualization platform for training cluster models (front end)**
 
-**Using our new function visualization methods - FCTree**
+<img src="https://feijiang.info/details/markdown/assets/image-20231111214519387.png">
+<img src="https://feijiang.info/details/markdown/img/web-01.png">
 
-<img src="https://feijiang.info/details/markdown/img/image-20231011184940562.png" style="zoom: 67%;" />
+**Using our new function visualization methods - FCTree**
+<img src="https://feijiang.info/details/markdown/img/image-20231011184940562.png" style="zoom: 50%;" />
 <img src="https://feijiang.info/details/markdown/img/image-20231011185448410.png"  style="zoom: 67%;" />
 
 :point_right:**You can watch this video for Website presentation:**  
