@@ -1,4 +1,16 @@
-# Introduction
+- [Introduction](#introduction)
+  - [Screenshots](#screenshots)
+  - [New Feature - FCTree Visualization](#new-feature---fctree-visualization)
+  - [Online Demo](#online-demo)
+  - [Intellectual Property](#intellectual-property)
+  - [Development Progress](#development-progress)
+  - [Quick Start](#quick-start)
+    - [Install dependencies](#install-dependencies)
+    - [Local development](#local-development)
+    - [Build](#build)
+  - [Learn More](#learn-more)
+
+# Introduction  
 
 This project is a malware cluster and visualization platform developed using the Create React App scaffolding. It is used for training cluster models on the front-end.
 

@@ -1,4 +1,15 @@
-# **Implemented Clustering Algorithms**
+- [Implemented Clustering Algorithms](#implemented-clustering-algorithms)
+  - [G Class: Clustering algorithm based on Graph2Vec graph embedding g\_graph2vec\_clustering.py](#g-class-clustering-algorithm-based-on-graph2vec-graph-embedding-g_graph2vec_clusteringpy)
+  - [G Class: Clustering algorithm based on graph edit distance](#g-class-clustering-algorithm-based-on-graph-edit-distance)
+  - [G Class: Clustering based on graph kernel g\_graph\_kernel.py](#g-class-clustering-based-on-graph-kernel-g_graph_kernelpy)
+  - [T Class: Clustering based on tree edit distance t\_tree\_edit\_distance.py](#t-class-clustering-based-on-tree-edit-distance-t_tree_edit_distancepy)
+  - [S Class: Clustering based on Word2Vec s\_cbow.py](#s-class-clustering-based-on-word2vec-s_cbowpy)
+  - [S Class: Clustering based on Bert s\_bert.py](#s-class-clustering-based-on-bert-s_bertpy)
+  - [S Class: Clustering based on GloVe s.glove\_clustering.py](#s-class-clustering-based-on-glove-sglove_clusteringpy)
+  - [S Class: Clustering based on SimCSE s.simcse\_clustering.py](#s-class-clustering-based-on-simcse-ssimcse_clusteringpy)
+
+
+# Implemented Clustering Algorithms
 
 *s_cbow.py is used to obtain the related results of Word2Vec (CBOW)*
 
@@ -28,7 +39,7 @@
 
 
 
-### **G Class: Clustering algorithm based on Graph2Vec graph embedding g_graph2vec_clustering.py**
+## G Class: Clustering algorithm based on Graph2Vec graph embedding g_graph2vec_clustering.py
 
 The basic idea of Graph2Vec: It introduces the Skipgram model in word2vec to graphs. In word2vec, the core idea of Skipgram is that words appearing in similar contexts tend to have similar semantics, so they should have similar vector representations. In Graph2Vec, a graph can be seen as a text, and all nodes within a fixed window of the target node can be seen as its context.
 
@@ -44,13 +55,13 @@ Link: https://arxiv.org/abs/1707.05005
 
 
 
-### **G Class: Clustering algorithm based on graph edit distance**
+## G Class: Clustering algorithm based on graph edit distance
 
 The graph edit distance (GED) based clustering algorithm is a clustering method that uses the edit distance to measure the similarity between graphs for clustering. By calculating the edit distances between graphs, it can judge the level of similarity between them, and cluster similar graphs together.
 
 
 
-### **G Class: Clustering based on graph kernel g_graph_kernel.py**
+## G Class: Clustering based on graph kernel g_graph_kernel.py
 
 A graph kernel is a function that measures the similarity between graphs by mapping them to some Hilbert space. It can be used for graph clustering by first computing the kernel similarity between all graph pairs, and then applying traditional clustering algorithms like k-means on the resultant kernel matrix.
 
@@ -63,17 +74,17 @@ The process includes:
 
 Using graph kernels for clustering has the advantage of jointly considering both graph structure and node features, without requiring costly graph matching. It has shown promising results on both unattributed and attributed graphs.
 
-**论文：A survey on graph kernels**
+**paper：A survey on graph kernels**
 
-链接：https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0195-3
+link：https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0195-3
 
-**论文：Weisfeiler-Lehman Graph Kernels**
+**paper：Weisfeiler-Lehman Graph Kernels**
 
-链接：https://arxiv.org/abs/1906.01277
+link：https://arxiv.org/abs/1906.01277
 
 
 
-### **T Class: Clustering based on tree edit distance t_tree_edit_distance.py**
+## T Class: Clustering based on tree edit distance t_tree_edit_distance.py
 
 - Construct hierarchical trees
 
@@ -100,13 +111,13 @@ The key steps involve:
 
 By modeling program semantics as hierarchical trees and leveraging tree edit distance, this approach can capture both syntax and semantics information for function clustering.
 
-**论文：**NED: An Inter-Graph Node Metric Based On Edit Distance
+**paper：**NED: An Inter-Graph Node Metric Based On Edit Distance
 
-链接：https://arxiv.org/abs/1602.02358
+link：https://arxiv.org/abs/1602.02358
 
 
 
-### **S Class: Clustering based on Word2Vec s_cbow.py**
+## S Class: Clustering based on Word2Vec s_cbow.py
 
 Word2Vec is an algorithm used to generate word embeddings, which are dense vector representations of words. These word representations capture semantic meanings and relationships between words. Word2Vec has two main implementations:
 
@@ -129,13 +140,13 @@ The advantages are:
 
 This allows meaningful clustering of texts based on semantics rather than exact word matching.
 
-**论文：Efficient Estimation of Word Representations in Vector Space**
+**paper：Efficient Estimation of Word Representations in Vector Space**
 
-论文链接：https://arxiv.org/abs/1301.3781
+paperlink：https://arxiv.org/abs/1301.3781
 
 
 
-### **S类：**基于Bert的聚类 s_bert.py
+## S Class: Clustering based on Bert s_bert.py
 
 BERT (Bidirectional Encoder Representations from Transformers) is a Natural Language Processing (NLP) model proposed by Google Researchers. It is a topic modeling technique that uses transformers and class-based TF-IDF to generate dense clusters [1].
 
@@ -147,13 +158,13 @@ In the context of clustering, BERT can be used to calculate the similarity betwe
 
 One common approach to clustering with BERT is to use the K-means clustering algorithm. By representing sentences as embeddings using BERT, K-means can group similar sentences together based on their embeddings. This can be useful in various NLP tasks such as document clustering, sentiment analysis, and text classification.
 
-**论文：BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**
+**paper：BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**
 
-论文链接：https://arxiv.org/abs/1810.04805
+paperlink：https://arxiv.org/abs/1810.04805
 
 
 
-### **S Class: Clustering based on GloVe s.glove_clustering.py**
+## S Class: Clustering based on GloVe s.glove_clustering.py
 
 GloVe (Global Vectors for Word Representation) is an unsupervised learning algorithm for obtaining vector representations for words. It trains on global word-word co-occurrence statistics from a corpus, and the resulting representations showcase interesting linear substructures of the word vector space.
 
@@ -171,13 +182,13 @@ Some advantages are:
 
 This allows clustering texts based on how their average semantic meanings relate, rather than exact word similarities. GloVe has been shown effective for various document classification tasks.
 
-论文链接：[https://www.aclweb.org/anthology/D14-1162](https://link.zhihu.com/?target=https%3A//links.jianshu.com/go%3Fto%3Dhttps%3A%2F%2Fwww.aclweb.org%2Fanthology%2FD14-1162)
+paperlink：[https://www.aclweb.org/anthology/D14-1162](https://link.zhihu.com/?target=https%3A//links.jianshu.com/go%3Fto%3Dhttps%3A%2F%2Fwww.aclweb.org%2Fanthology%2FD14-1162)
 
-项目Github：[https://github.com/stanfordnlp/GloVe](https://link.zhihu.com/?target=https%3A//links.jianshu.com/go%3Fto%3Dhttps%3A%2F%2Fgithub.com%2Fstanfordnlp%2FGloVe)
+Github：[https://github.com/stanfordnlp/GloVe](https://link.zhihu.com/?target=https%3A//links.jianshu.com/go%3Fto%3Dhttps%3A%2F%2Fgithub.com%2Fstanfordnlp%2FGloVe)
 
 
 
-### **S Class: Clustering based on SimCSE s.simcse_clustering.py**
+## S Class: Clustering based on SimCSE s.simcse_clustering.py
 
 SimCSE (Simple Contrastive Learning of Sentence Embeddings) is an unsupervised technique that learns universal sentence representations from unlabeled data.
 
@@ -196,11 +207,6 @@ Some advantages are:
 
 SimCSE has been shown effective on several semantic textual similarity benchmarks.
 
-**论文：SimCSE: Simple Contrastive Learning of Sentence Embeddings**
+**paper：SimCSE: Simple Contrastive Learning of Sentence Embeddings**
 
-链接：https://arxiv.org/abs/2104.08821
-
-
-
-
-
+link：https://arxiv.org/abs/2104.08821
