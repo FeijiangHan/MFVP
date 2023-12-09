@@ -61,8 +61,7 @@ In the encoding stage, we use the Graph2Vec model to obtain a vector representat
 
 Finally, in the clustering stage, we use t-SNE + dbscan to display and cluster the results.
 
-**Paper:** graph2vec: Learning Distributed Representations of Graphs
-
+Paper: graph2vec: Learning Distributed Representations of Graphs
 Link: https://arxiv.org/abs/1707.05005
 
 
@@ -86,12 +85,10 @@ The process includes:
 
 Using graph kernels for clustering has the advantage of jointly considering both graph structure and node features, without requiring costly graph matching. It has shown promising results on both unattributed and attributed graphs.
 
-**paper：A survey on graph kernels**
-
+paper：A survey on graph kernels
 link：https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0195-3
 
-**paper：Weisfeiler-Lehman Graph Kernels**
-
+paper：Weisfeiler-Lehman Graph Kernels
 link：https://arxiv.org/abs/1906.01277
 
 
@@ -123,8 +120,7 @@ The key steps involve:
 
 By modeling program semantics as hierarchical trees and leveraging tree edit distance, this approach can capture both syntax and semantics information for function clustering.
 
-**paper：**NED: An Inter-Graph Node Metric Based On Edit Distance
-
+paper：NED: An Inter-Graph Node Metric Based On Edit Distance
 link：https://arxiv.org/abs/1602.02358
 
 
@@ -152,8 +148,7 @@ The advantages are:
 
 This allows meaningful clustering of texts based on semantics rather than exact word matching.
 
-**paper：Efficient Estimation of Word Representations in Vector Space**
-
+paper：Efficient Estimation of Word Representations in Vector Space
 paperlink：https://arxiv.org/abs/1301.3781
 
 
@@ -170,8 +165,7 @@ In the context of clustering, BERT can be used to calculate the similarity betwe
 
 One common approach to clustering with BERT is to use the K-means clustering algorithm. By representing sentences as embeddings using BERT, K-means can group similar sentences together based on their embeddings. This can be useful in various NLP tasks such as document clustering, sentiment analysis, and text classification.
 
-**paper：BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding**
-
+paper：BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
 paperlink：https://arxiv.org/abs/1810.04805
 
 
@@ -194,7 +188,7 @@ Some advantages are:
 
 This allows clustering texts based on how their average semantic meanings relate, rather than exact word similarities. GloVe has been shown effective for various document classification tasks.
 
-paperlink：[https://www.aclweb.org/anthology/D14-1162](https://link.zhihu.com/?target=https%3A//links.jianshu.com/go%3Fto%3Dhttps%3A%2F%2Fwww.aclweb.org%2Fanthology%2FD14-1162)
+link：[https://www.aclweb.org/anthology/D14-1162](https://link.zhihu.com/?target=https%3A//links.jianshu.com/go%3Fto%3Dhttps%3A%2F%2Fwww.aclweb.org%2Fanthology%2FD14-1162)
 
 Github：[https://github.com/stanfordnlp/GloVe](https://link.zhihu.com/?target=https%3A//links.jianshu.com/go%3Fto%3Dhttps%3A%2F%2Fgithub.com%2Fstanfordnlp%2FGloVe)
 
@@ -219,8 +213,7 @@ Some advantages are:
 
 SimCSE has been shown effective on several semantic textual similarity benchmarks.
 
-**paper：SimCSE: Simple Contrastive Learning of Sentence Embeddings**
-
+paper：SimCSE: Simple Contrastive Learning of Sentence Embeddings
 link：https://arxiv.org/abs/2104.08821
 
 
