@@ -1,0 +1,81 @@
+[
+  {
+    "name": "__main__",
+    "unique_id": "f8a7ed64f4b70d7cb0b6473ae96b4e18|df4928ab81235c09e6a48ca9b288a582",
+    "children": [
+      {
+        "name": "zend_compile_file",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[0]"
+      },
+      {
+        "name": "base64_decode",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": true,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[1]"
+      },
+      {
+        "name": "eval",
+        "caller": "__main__",
+        "children": [
+          {
+            "name": "zend_compile_string",
+            "caller": "eval",
+            "children": [],
+            "is_sensitive": true,
+            "is_common": true,
+            "call_num": 1,
+            "all_index": "[3]"
+          },
+          {
+            "name": "fopen",
+            "caller": "eval",
+            "children": [],
+            "is_sensitive": false,
+            "is_common": true,
+            "call_num": 1,
+            "all_index": "[4]"
+          },
+          {
+            "name": "base64_decode",
+            "caller": "eval",
+            "children": [],
+            "is_sensitive": true,
+            "is_common": true,
+            "call_num": 1,
+            "all_index": "[5]"
+          },
+          {
+            "name": "fputs",
+            "caller": "eval",
+            "children": [],
+            "is_sensitive": false,
+            "is_common": true,
+            "call_num": 1,
+            "all_index": "[6]"
+          }
+        ],
+        "is_sensitive": true,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[2]"
+      },
+      {
+        "name": "phpinfo",
+        "caller": "__main__",
+        "children": [],
+        "is_sensitive": false,
+        "is_common": true,
+        "call_num": 1,
+        "all_index": "[7]"
+      }
+    ]
+  }
+]
