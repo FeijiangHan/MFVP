@@ -226,12 +226,12 @@ This project is a malware cluster and visualization platform developed using the
 
 ## Screenshots
 
-![screenshot1](https://feijiang.info/details/markdown/assets/image-20231111214519387.png){:width="50%"}
-![screenshot2](https://feijiang.info/details/markdown/img/web-01.png){:width="50%"}
+![screenshot1](https://feijiang.info/details/markdown/assets/image-20231111214519387.png)
+![screenshot2](https://feijiang.info/details/markdown/img/web-01.png)
 
 ## New Feature - FCTree Visualization
 
-![screenshot2](https://feijiang.info/details/markdown/img/image-20231011184940562.png){:width="80%"}
+![screenshot2](https://feijiang.info/details/markdown/img/image-20231011184940562.png)
 
 ## Online Demo
 
