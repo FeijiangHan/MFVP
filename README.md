@@ -1,3 +1,5 @@
+This repository provides a comprehensive platform for implementing various clustering algorithms, with a specific focus on malware clustering and visualization. It features clustering methods based on graph embeddings, edit distances, tree structures, and text embeddings from models like Word2Vec, BERT, and SimCSE. The project includes a front-end visualization platform built using Create React App, enabling easy interaction with the trained clustering models. Additionally, the project showcases FCTree visualization for a more intuitive understanding of clustering results.
+Developers can quickly get started with local development and explore clustering techniques for different data representations.
 
 - [Implemented Clustering Algorithms](#implemented-clustering-algorithms)
   - [G Class: Clustering algorithm based on Graph2Vec graph embedding g\_graph2vec\_clustering.py](#g-class-clustering-algorithm-based-on-graph2vec-graph-embedding-g_graph2vec_clusteringpy)
